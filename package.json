@@ -1,0 +1,17 @@
+{
+  "name": "fusion",
+  "version": "1.0.0",
+  "description": "Zera discord bot Eris core.",
+  "main": "./build/out.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wayvshock",
+  "license": "MIT",
+  "dependencies": {
+    "eris": "^0.16.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
