@@ -1,6 +1,9 @@
 export class Util {
     static getTime(iso: boolean) {
-        new Date().to
         return new Date()[iso ? "toISOString" : "toString"]();
+    }
+
+    static createCatchReason<T extends string>(reason: T, err: Error): `${T}[${string}]` {
+        return `${reason}[${err.message}]`;
     }
 }
